@@ -1,0 +1,27 @@
+{
+  "name": "galeria-receitas-testes",
+  "version": "1.0.0",
+  "description": "Galeria de Receitas com Testes - Aula 40",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0",
+    "@types/express": "^4.17.21",
+    "@types/ejs": "^3.1.5",
+    "@types/multer": "^1.4.11",
+    "ts-node-dev": "^2.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.11",
+    "supertest": "^6.3.3",
+    "@types/supertest": "^6.0.2"
+  }
+}
